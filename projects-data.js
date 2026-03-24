@@ -1,4 +1,4 @@
-[
+window.PROJECTS_DATA = [
   {
     "title": "Minima Docta posters",
     "description": "A project exploring contemporary art and society through documentary cinema and discussions, led by Wim Lambrecht & Jeroen Laureyns, supported by LUCA School of Arts.",
@@ -105,4 +105,4 @@
       "assets/foto33.jpg"
     ]
   }
-]
+];
