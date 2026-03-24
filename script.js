@@ -1,36 +1,49 @@
-const FALLBACK_PROJECTS = [
+const DEFAULT_PROJECTS = [
   {
-    title: "Portfolio selectie",
-    description: "Statische GitHub-versie van het portfolio.",
-    meta: "1 afbeelding",
-    images: ["assets/foto01.jpg"]
+    title: "Portfolio",
+    description: "Geen projecten gevonden.",
+    meta: "",
+    images: []
   }
 ];
+
+function sanitizeImageEntry(entry) {
+  if (typeof entry === "string" && entry.trim()) {
+    return entry.trim();
+  }
+  return null;
+}
+
+function sanitizeProjects(input) {
+  if (!Array.isArray(input)) return DEFAULT_PROJECTS;
+  const cleaned = input
+    .map((project) => {
+      const title = typeof project?.title === "string" ? project.title.trim() : "";
+      const description = typeof project?.description === "string" ? project.description.trim() : "";
+      const meta = typeof project?.meta === "string" ? project.meta.trim() : "";
+      const images = Array.isArray(project?.images)
+        ? project.images.map(sanitizeImageEntry).filter(Boolean)
+        : [];
+      if (!title || images.length === 0) return null;
+      return { title, description, meta, images };
+    })
+    .filter(Boolean);
+  return cleaned.length ? cleaned : DEFAULT_PROJECTS;
+}
 
 async function loadProjects() {
   try {
     const response = await fetch("./projects.json", { cache: "no-store" });
-    if (!response.ok) throw new Error(`HTTP ${response.status}`);
+    if (!response.ok) throw new Error("projects.json kon niet geladen worden");
     const data = await response.json();
-    if (!Array.isArray(data) || data.length === 0) return FALLBACK_PROJECTS;
-
-    return data
-      .map((project) => ({
-        title: typeof project?.title === "string" ? project.title.trim() : "",
-        description: typeof project?.description === "string" ? project.description.trim() : "",
-        meta: typeof project?.meta === "string" ? project.meta.trim() : "",
-        images: Array.isArray(project?.images)
-          ? project.images.filter((item) => typeof item === "string" && item.trim())
-          : []
-      }))
-      .filter((project) => project.title && project.images.length);
+    return sanitizeProjects(data);
   } catch (error) {
-    console.warn("Kon projects.json niet laden:", error);
-    return FALLBACK_PROJECTS;
+    console.warn(error);
+    return DEFAULT_PROJECTS;
   }
 }
 
-let projects = [];
+let projects = DEFAULT_PROJECTS;
 let currentProjectIndex = 0;
 let currentImageIndex = 0;
 
@@ -40,24 +53,22 @@ const textFrame = document.getElementById("textFrame");
 const imageFrame = document.getElementById("imageFrame");
 const customCursor = document.getElementById("customCursor");
 
-function renderProject() {
-  const project = projects[currentProjectIndex];
-  if (!project) return;
+function resolveImageSource(entry) {
+  return typeof entry === "string" ? entry : "";
+}
 
-  const imageSrc = project.images[currentImageIndex] || "";
+function renderProject() {
   mainImage.decoding = "async";
   mainImage.loading = "eager";
-  mainImage.src = imageSrc;
+  const project = projects[currentProjectIndex];
+  const imageEntry = project.images[currentImageIndex] || "";
+  const imageSrc = resolveImageSource(imageEntry);
+
+  mainImage.src = imageSrc || "";
   mainImage.alt = project.title;
-
   projectLines.innerHTML = "";
-  const lines = [
-    project.title,
-    project.description,
-    `${project.meta} • ${currentImageIndex + 1}/${project.images.length}`
-  ].filter(Boolean);
 
-  lines.forEach((lineText) => {
+  [project.title, project.description, project.meta].filter(Boolean).forEach((lineText) => {
     const row = document.createElement("div");
     row.className = "project-line";
     row.textContent = lineText;
@@ -66,14 +77,12 @@ function renderProject() {
 }
 
 function nextProject() {
-  if (!projects.length) return;
   currentProjectIndex = (currentProjectIndex + 1) % projects.length;
   currentImageIndex = 0;
   renderProject();
 }
 
 function nextImage() {
-  if (!projects.length) return;
   const activeProject = projects[currentProjectIndex];
   currentImageIndex = (currentImageIndex + 1) % activeProject.images.length;
   renderProject();
@@ -109,7 +118,7 @@ textFrame.addEventListener("mouseleave", hideCustomCursor);
 mainImage.addEventListener("dragstart", (event) => event.preventDefault());
 mainImage.addEventListener("mousedown", (event) => { if (event.detail > 1) event.preventDefault(); });
 
-loadProjects().then((loadedProjects) => {
-  projects = loadedProjects.length ? loadedProjects : FALLBACK_PROJECTS;
+loadProjects().then((loaded) => {
+  projects = loaded;
   renderProject();
 });
