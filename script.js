@@ -27,14 +27,10 @@ function sanitizeProjects(input) {
 
 async function loadProjects() {
   try {
-    if (Array.isArray(window.PROJECTS_DATA)) {
-      projects = sanitizeProjects(window.PROJECTS_DATA);
-    } else {
-      const response = await fetch("./projects.json", { cache: "no-store" });
-      if (!response.ok) throw new Error("Could not load projects.json");
-      const data = await response.json();
-      projects = sanitizeProjects(data);
-    }
+    const response = await fetch("./projects.json", { cache: "no-store" });
+    if (!response.ok) throw new Error("Could not load projects.json");
+    const data = await response.json();
+    projects = sanitizeProjects(data);
   } catch (error) {
     console.error(error);
     projects = [];

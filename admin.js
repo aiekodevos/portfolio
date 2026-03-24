@@ -11,7 +11,7 @@ const DEFAULT_PROJECTS = [
     title: "Designing a poster for Minima Docta",
     description: "Poster for Minima Docta, a project exploring contemporary art and society through documentary cinema and discussions.",
     meta: "12 February 2025 • 84 × 118.8 cm",
-    images: ["assets/minima-1.png", "assets/minima-2.png", "assets/minima-3.png"]
+    images: ["assets/minima-1.jpg", "assets/minima-2.jpg", "assets/minima-3.jpg"]
   }
 ];
 
