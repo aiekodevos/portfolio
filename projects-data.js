@@ -78,10 +78,7 @@ window.PROJECTS_DATA = [
     "description": "FOR MY GRAPHIC DESIGN ASSIGNMENT, I DESIGNED A INFOGRAPHIC EXAMINING THE THEORY THAT THE 9/11 ATTACKS WERE ORCHESTRATED BY THE U.S. GOVERNMENT. THIS THEORY SUGGESTS EXPLOSIVES BROUGHT DOWN THE TWIN TOWERS AND WTC7, LEADING TO WARS AND FINANCIAL GAIN.",
     "meta": "DECEMBER 2024 | SIZE: 84 X 122 CM",
     "images": [
-      "assets/foto27.jpg",
-      "assets/foto28.jpg",
-      "assets/foto29.jpg",
-      "assets/foto30.jpg"
+      "assets/foto26.jpg",
     ]
   },
   {
