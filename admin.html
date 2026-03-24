@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mini CMS — Portfolio</title>
+  <link rel="stylesheet" href="admin.css" />
+</head>
+<body>
+  <main class="admin-page">
+    <header class="admin-header">
+      <div>
+        <h1>Mini CMS</h1>
+        <p>Upload foto's per werk. De CMS verkleint en comprimeert ze automatisch zodat je site lichter blijft.</p>
+      </div>
+      <div class="admin-actions top-actions">
+        <a class="ghost-button" href="./index.html">← terug naar portfolio</a>
+        <button id="exportBtn" type="button">export json</button>
+        <button id="resetBtn" class="danger" type="button">reset demo</button>
+      </div>
+    </header>
+
+    <section class="admin-layout">
+      <aside class="sidebar">
+        <div class="sidebar-header">
+          <h2>Werken</h2>
+          <button id="newBtn" type="button">+ nieuw werk</button>
+        </div>
+        <div id="projectList" class="project-list"></div>
+      </aside>
+
+      <section class="editor">
+        <form id="projectForm" class="editor-card">
+          <label>
+            <span>Titel</span>
+            <input id="titleInput" type="text" placeholder="Bijv. Minima Docta poster" />
+          </label>
+
+          <label>
+            <span>Beschrijving</span>
+            <textarea id="descriptionInput" rows="5" placeholder="Korte beschrijving van het werk"></textarea>
+          </label>
+
+          <label>
+            <span>Kleine extra regel</span>
+            <input id="metaInput" type="text" placeholder="Bijv. 2025 • 84 × 118.8 cm" />
+          </label>
+
+          <section class="upload-card">
+            <div class="upload-head">
+              <div>
+                <h3>Afbeeldingen uploaden</h3>
+                <p>Foto's worden automatisch verkleind naar max. 2400 px en gecomprimeerd naar WebP/JPEG voor scherpere weergave.</p>
+              </div>
+              <label class="upload-button">
+                <input id="imageUploadInput" type="file" accept="image/*" multiple />
+                upload afbeeldingen
+              </label>
+            </div>
+
+            <div class="hint-row">
+              <span id="statusText">Nog geen upload bezig.</span>
+            </div>
+
+            <div id="imageList" class="image-list"></div>
+          </section>
+
+          <details class="manual-paths">
+            <summary>Optioneel: handmatige afbeeldingspaden</summary>
+            <label>
+              <span>Externe of lokale paden (1 per lijn)</span>
+              <textarea id="imagesInput" rows="5" placeholder="assets/project-1.jpg&#10;assets/project-2.jpg"></textarea>
+            </label>
+          </details>
+
+          <div class="editor-actions">
+            <button id="saveBtn" type="submit">opslaan</button>
+            <button id="deleteBtn" class="danger" type="button">verwijder werk</button>
+          </div>
+        </form>
+
+        <section class="help-card">
+          <h3>Hoe gebruiken</h3>
+          <ol>
+            <li>Open <strong>admin.html</strong>.</li>
+            <li>Maak een werk aan of selecteer een bestaand werk.</li>
+            <li>Upload één of meerdere foto's.</li>
+            <li>Klik op <strong>opslaan</strong>.</li>
+            <li>Open daarna je portfolio.</li>
+          </ol>
+          <p class="note">Deze upload-CMS werkt zonder server, dus de geüploade beelden blijven lokaal opgeslagen in die browser via IndexedDB. Dat is veel beter voor performance dan grote base64-afbeeldingen in localStorage.</p>
+        </section>
+      </section>
+    </section>
+  </main>
+
+  <script src="admin.js"></script>
+</body>
+</html>

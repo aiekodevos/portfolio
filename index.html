@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aieko De Vos — Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <img class="custom-cursor is-hidden" id="customCursor" src="./arrow_green.svg" alt="" aria-hidden="true" />
+
+  <main class="page">
+    <header class="identity panel-grid panel-grid--2rows">
+      <div class="grid-row row-top">
+        <div class="cell align-left" id="firstName">AIEKO</div>
+        <div class="cell align-center" id="middleName">DE</div>
+        <div class="cell align-right" id="lastName">VOS</div>
+      </div>
+      <div class="grid-row row-bottom">
+        <a class="cell align-left contact-link contact-link--instagram" id="handle" href="https://www.instagram.com/devosaieko/" target="_blank" rel="noopener noreferrer">@devosaieko</a>
+        <a class="cell align-right contact-link contact-link--mail" id="email" href="mailto:aiekodvs@gmail.com">aiekodvs@gmail.com</a>
+      </div>
+    </header>
+
+    <section class="layout">
+      <button class="image-frame" id="imageFrame" aria-label="Volgende foto" type="button">
+        <img class="project-image" id="mainImage" src="" alt="" />
+      </button>
+
+      <button class="text-frame panel-grid panel-grid--project" id="textFrame" aria-label="Ga naar volgend werk" type="button">
+        <div class="project-lines" id="projectLines"></div>
+      </button>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
