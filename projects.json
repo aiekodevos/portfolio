@@ -1,0 +1,120 @@
+[
+  {
+    "title": "Werk 01",
+    "description": "Portfolio selectie",
+    "meta": "3 afbeelding(en)",
+    "images": [
+      "assets/foto01.jpg",
+      "assets/foto02.jpg",
+      "assets/foto03.jpg"
+    ]
+  },
+  {
+    "title": "Werk 02",
+    "description": "Portfolio selectie",
+    "meta": "3 afbeelding(en)",
+    "images": [
+      "assets/foto04.jpg",
+      "assets/foto05.jpg",
+      "assets/foto06.jpg"
+    ]
+  },
+  {
+    "title": "Werk 03",
+    "description": "Portfolio selectie",
+    "meta": "3 afbeelding(en)",
+    "images": [
+      "assets/foto07.jpg",
+      "assets/foto08.jpg",
+      "assets/foto09.jpg"
+    ]
+  },
+  {
+    "title": "Werk 04",
+    "description": "Portfolio selectie",
+    "meta": "3 afbeelding(en)",
+    "images": [
+      "assets/foto10.jpg",
+      "assets/foto11.jpg",
+      "assets/foto12.jpg"
+    ]
+  },
+  {
+    "title": "Werk 05",
+    "description": "Portfolio selectie",
+    "meta": "3 afbeelding(en)",
+    "images": [
+      "assets/foto13.jpg",
+      "assets/foto14.jpg",
+      "assets/foto15.jpg"
+    ]
+  },
+  {
+    "title": "Werk 06",
+    "description": "Portfolio selectie",
+    "meta": "3 afbeelding(en)",
+    "images": [
+      "assets/foto16.jpg",
+      "assets/foto17.jpg",
+      "assets/foto18.jpg"
+    ]
+  },
+  {
+    "title": "Werk 07",
+    "description": "Portfolio selectie",
+    "meta": "3 afbeelding(en)",
+    "images": [
+      "assets/foto19.jpg",
+      "assets/foto20.jpg",
+      "assets/foto21.jpg"
+    ]
+  },
+  {
+    "title": "Werk 08",
+    "description": "Portfolio selectie",
+    "meta": "3 afbeelding(en)",
+    "images": [
+      "assets/foto22.jpg",
+      "assets/foto23.jpg",
+      "assets/foto24.jpg"
+    ]
+  },
+  {
+    "title": "Werk 09",
+    "description": "Portfolio selectie",
+    "meta": "3 afbeelding(en)",
+    "images": [
+      "assets/foto25.jpg",
+      "assets/foto26.jpg",
+      "assets/foto27.jpg"
+    ]
+  },
+  {
+    "title": "Werk 10",
+    "description": "Portfolio selectie",
+    "meta": "3 afbeelding(en)",
+    "images": [
+      "assets/foto28.jpg",
+      "assets/foto29.jpg",
+      "assets/foto30.jpg"
+    ]
+  },
+  {
+    "title": "Werk 11",
+    "description": "Portfolio selectie",
+    "meta": "3 afbeelding(en)",
+    "images": [
+      "assets/foto31.jpg",
+      "assets/foto32.jpg",
+      "assets/foto33.jpg"
+    ]
+  },
+  {
+    "title": "Werk 12",
+    "description": "Portfolio selectie",
+    "meta": "1 afbeelding(en)",
+    "images": [
+      "assets/foto34.jpg"
+    ]
+  }
+]
