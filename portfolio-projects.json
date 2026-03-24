@@ -4,230 +4,13 @@
     "description": "A project exploring contemporary art and society through documentary cinema and discussions, led by Wim Lambrecht & Jeroen Laureyns, supported by LUCA School of Arts.",
     "meta": "November 2024 | Size: 84 x 118.8 cm",
     "images": [
-      {
-        "type": "db",
-        "id": "1774375929852-9qo7ezrd",
-        "name": "foto1.jpg",
-        "mimeType": "image/png",
-        "width": 1702,
-        "height": 2400,
-        "size": 3888579
-      },
-      {
-        "type": "db",
-        "id": "1774375929973-1efueagh",
-        "name": "foto2.jpg",
-        "mimeType": "image/png",
-        "width": 1697,
-        "height": 2400,
-        "size": 2154319
-      },
-      {
-        "type": "db",
-        "id": "1774375930295-nvddj3er",
-        "name": "foto3.jpg",
-        "mimeType": "image/png",
-        "width": 1698,
-        "height": 2400,
-        "size": 1002513
-      },
-      {
-        "type": "db",
-        "id": "1774375930359-2l7bjv6c",
-        "name": "foto4.jpg",
-        "mimeType": "image/png",
-        "width": 1181,
-        "height": 1670,
-        "size": 1199817
-      },
-      {
-        "type": "db",
-        "id": "1774375930508-gtchjlil",
-        "name": "foto5.jpg",
-        "mimeType": "image/png",
-        "width": 1697,
-        "height": 2400,
-        "size": 3681227
-      },
-      {
-        "type": "db",
-        "id": "1774375930657-vjrokcs2",
-        "name": "foto6.jpg",
-        "mimeType": "image/png",
-        "width": 1697,
-        "height": 2400,
-        "size": 4165113
-      },
-      {
-        "type": "db",
-        "id": "1774375930704-y6owlku8",
-        "name": "foto7.jpg",
-        "mimeType": "image/png",
-        "width": 1181,
-        "height": 1665,
-        "size": 748495
-      }
-    ]
-  },
-  {
-    "title": "Graphic Windows",
-    "description": "An experimental design in which window structures from four iconic buildings — Kunsthal Gent, Horta Museum, Villers-la-Ville, and Melopee — come together.",
-    "meta": "May 2025 | Size: 64 x 94 cm",
-    "images": [
-      {
-        "type": "db",
-        "id": "1774375920210-fxgkm2k9",
-        "name": "foto10.JPG",
-        "mimeType": "image/png",
-        "width": 1080,
-        "height": 1350,
-        "size": 3004687
-      },
-      {
-        "type": "db",
-        "id": "1774375920311-bmls61i1",
-        "name": "foto11.JPG",
-        "mimeType": "image/png",
-        "width": 1080,
-        "height": 1350,
-        "size": 2812440
-      }
-    ]
-  },
-  {
-    "title": "Type Specimen",
-    "description": "A type specimen designed to represent my digitized revival font “Chelsea Circular”.",
-    "meta": "January 2024 | 315 × 550 mm",
-    "images": [
-      {
-        "type": "db",
-        "id": "1774375942241-wl00czu0",
-        "name": "foto12.jpg",
-        "mimeType": "image/png",
-        "width": 2400,
-        "height": 1920,
-        "size": 6647523
-      },
-      {
-        "type": "db",
-        "id": "1774375942501-rpc2xxb3",
-        "name": "foto13.jpg",
-        "mimeType": "image/png",
-        "width": 2400,
-        "height": 1920,
-        "size": 5943879
-      },
-      {
-        "type": "db",
-        "id": "1774375942801-mh8nw5tl",
-        "name": "foto14.jpg",
-        "mimeType": "image/png",
-        "width": 1920,
-        "height": 2400,
-        "size": 6207289
-      },
-      {
-        "type": "db",
-        "id": "1774375943121-bg2tnu8q",
-        "name": "foto15.jpg",
-        "mimeType": "image/png",
-        "width": 2400,
-        "height": 1920,
-        "size": 7078197
-      },
-      {
-        "type": "db",
-        "id": "1774375943416-olsb4tot",
-        "name": "foto16.jpg",
-        "mimeType": "image/png",
-        "width": 1920,
-        "height": 2400,
-        "size": 6007779
-      }
-    ]
-  },
-  {
-    "title": "EXPO — GRAPHIC DESIGN 3BA LUCA SCHOOL OF ARTS",
-    "description": "SINT-LUCAS GHENT ALEXIANENPLEIN 1, 9000 GHENT — ROOM 303 JAN 15 – FEB 6 FROM GRAPHIC WORK TO DESCRIPTION TO NEW DESIGN. COME AND EXPLORE MY WORK ALONGSIDE THAT OF MY FELLOW STUDENTS. POSTER DESIGN BY: AIEKO DE VOS, JAN VANSCHUYLENBERGH & RANDOALDSABBE",
-    "meta": "January 2026 | Size: 84 x 118.8 cm",
-    "images": [
-      {
-        "type": "db",
-        "id": "1774375949999-69szhyne",
-        "name": "foto17.jpg",
-        "mimeType": "image/png",
-        "width": 1697,
-        "height": 2400,
-        "size": 749645
-      }
-    ]
-  },
-  {
-    "title": "Magnetic Drawing",
-    "description": "A MAGNETIC DRAWING BOARD IN WEB FORM. THE MAGNETS FOLLOW YOUR CURSOR, AND YOU CAN SIMPLY ERASE BY SHRINKING THE TAB ON THE RIGHT. \nhttps://aiekodevos.github.io/magnetic-drawing/",
-    "meta": "DATE: JUNE, 2025",
-    "images": [
-      {
-        "type": "db",
-        "id": "1774375958841-76277lt3",
-        "name": "foto31.jpg",
-        "mimeType": "image/png",
-        "width": 2400,
-        "height": 1536,
-        "size": 3219943
-      },
-      {
-        "type": "db",
-        "id": "1774375958983-tzxvq9h8",
-        "name": "foto32.jpg",
-        "mimeType": "image/png",
-        "width": 2358,
-        "height": 1896,
-        "size": 2592878
-      },
-      {
-        "type": "db",
-        "id": "1774375959136-maurhr3d",
-        "name": "foto33.jpg",
-        "mimeType": "image/png",
-        "width": 2400,
-        "height": 1617,
-        "size": 2817853
-      }
-    ]
-  },
-  {
-    "title": "A reimagined cover design for Rick Wakeman iconic 1973 album The Six Wives of Henry VIII.",
-    "description": "In this design, the full focus is on typographic visual language. For each of Henry VIII’s six wives, I created a personal monogram. Inspired by Gothic typefaces, I conducted my own research and developed a unique series of letterforms in a self-created style.",
-    "meta": "March 2024 | Size: 31,5 x 31,5 cm",
-    "images": [
-      {
-        "type": "db",
-        "id": "1774375975332-imgksipk",
-        "name": "foto18.jpg",
-        "mimeType": "image/png",
-        "width": 2160,
-        "height": 1350,
-        "size": 3479238
-      },
-      {
-        "type": "db",
-        "id": "1774375975406-81undx53",
-        "name": "foto19.jpg",
-        "mimeType": "image/png",
-        "width": 1080,
-        "height": 1350,
-        "size": 2019623
-      },
-      {
-        "type": "db",
-        "id": "1774375975463-j1axp1cb",
-        "name": "foto20.jpg",
-        "mimeType": "image/png",
-        "width": 1080,
-        "height": 1350,
-        "size": 1223934
-      }
+      "assets/foto1.jpg",
+      "assets/foto2.jpg",
+      "assets/foto3.jpg",
+      "assets/foto4.jpg",
+      "assets/foto5.jpg",
+      "assets/foto6.jpg",
+      "assets/foto7.jpg"
     ]
   },
   {
@@ -235,24 +18,47 @@
     "description": "A PROJECT WHERE AN EXISTING LOGO IS GIVEN A NEW NAME. I CHOSE THE JUSTICE DEPARTMENT AS THE ENTITY AND CREATED A SATIRICAL PUBLICATION.",
     "meta": "JUNE 2025 | SIZE: 420 × 594 MM",
     "images": [
-      {
-        "type": "db",
-        "id": "1774375986476-rcnvi07d",
-        "name": "foto8.jpg",
-        "mimeType": "image/png",
-        "width": 1660,
-        "height": 1174,
-        "size": 3057847
-      },
-      {
-        "type": "db",
-        "id": "1774375986577-w4qqaawt",
-        "name": "foto9.jpg",
-        "mimeType": "image/png",
-        "width": 1660,
-        "height": 1174,
-        "size": 2662761
-      }
+      "assets/foto8.jpg",
+      "assets/foto9.jpg"
+    ]
+  },
+  {
+    "title": "Graphic Windows",
+    "description": "An experimental design in which window structures from four iconic buildings — Kunsthal Gent, Horta Museum, Villers-la-Ville, and Melopee — come together.",
+    "meta": "May 2025 | Size: 64 x 94 cm",
+    "images": [
+      "assets/foto10.JPG",
+      "assets/foto11.JPG"
+    ]
+  },
+  {
+    "title": "Type Specimen",
+    "description": "A type specimen designed to represent my digitized revival font “Chelsea Circular”.",
+    "meta": "January 2024 | 315 × 550 mm",
+    "images": [
+      "assets/foto12.jpg",
+      "assets/foto13.jpg",
+      "assets/foto14.jpg",
+      "assets/foto15.jpg",
+      "assets/foto16.jpg"
+    ]
+  },
+  {
+    "title": "EXPO — GRAPHIC DESIGN 3BA LUCA SCHOOL OF ARTS",
+    "description": "SINT-LUCAS GHENT ALEXIANENPLEIN 1, 9000 GHENT — ROOM 303 JAN 15 – FEB 6 FROM GRAPHIC WORK TO DESCRIPTION TO NEW DESIGN. COME AND EXPLORE MY WORK ALONGSIDE THAT OF MY FELLOW STUDENTS. POSTER DESIGN BY: AIEKO DE VOS, JAN VANSCHUYLENBERGH & RANDOALDSABBE",
+    "meta": "January 2026 | Size: 84 x 118.8 cm",
+    "images": [
+      "assets/foto17.jpg"
+    ]
+  },
+  {
+    "title": "A reimagined cover design for Rick Wakeman iconic 1973 album The Six Wives of Henry VIII.",
+    "description": "In this design, the full focus is on typographic visual language. For each of Henry VIII’s six wives, I created a personal monogram. Inspired by Gothic typefaces, I conducted my own research and developed a unique series of letterforms in a self-created style.",
+    "meta": "March 2024 | Size: 31,5 x 31,5 cm",
+    "images": [
+      "assets/foto18.jpg",
+      "assets/foto19.jpg",
+      "assets/foto20.jpg"
     ]
   },
   {
@@ -260,51 +66,11 @@
     "description": "A COLLECTION OF 140 OBJECTS, GATHERED IN A BROADSHEET TITLED ‘ENCYCLOPEDIA OF HUMAN FOLLY’.\nSPREAD ACROSS 40 PAGES AND DIVIDED INTO 31 THEMATIC GROUPS, THESE OBJECTS ARE VISUALLY COMPARED WITH LARGE PORTRAIT PHOTOGRAPHS. EACH PORTRAIT REFERS TO A MOMENT IN HISTORY WHEN HUMANITY FAILED.",
     "meta": "MAY 2025 | SIZE: 350 X 500 MM | PAGES: 40",
     "images": [
-      {
-        "type": "db",
-        "id": "1774375998699-7sr8gdof",
-        "name": "foto21.jpg",
-        "mimeType": "image/png",
-        "width": 2160,
-        "height": 1350,
-        "size": 6470420
-      },
-      {
-        "type": "db",
-        "id": "1774375998867-jr3vsput",
-        "name": "foto22.jpg",
-        "mimeType": "image/png",
-        "width": 2160,
-        "height": 1350,
-        "size": 5103965
-      },
-      {
-        "type": "db",
-        "id": "1774375998945-1dkf6i8t",
-        "name": "foto23.jpg",
-        "mimeType": "image/png",
-        "width": 1080,
-        "height": 1350,
-        "size": 2187937
-      },
-      {
-        "type": "db",
-        "id": "1774375999021-qtdbix4i",
-        "name": "foto24.jpg",
-        "mimeType": "image/png",
-        "width": 1080,
-        "height": 1350,
-        "size": 2212244
-      },
-      {
-        "type": "db",
-        "id": "1774375999094-lqq4cppt",
-        "name": "foto25.jpg",
-        "mimeType": "image/png",
-        "width": 1080,
-        "height": 1350,
-        "size": 2084500
-      }
+      "assets/foto21.jpg",
+      "assets/foto22.jpg",
+      "assets/foto23.jpg",
+      "assets/foto24.jpg",
+      "assets/foto25.jpg"
     ]
   },
   {
@@ -312,15 +78,7 @@
     "description": "FOR MY GRAPHIC DESIGN ASSIGNMENT, I DESIGNED A INFOGRAPHIC EXAMINING THE THEORY THAT THE 9/11 ATTACKS WERE ORCHESTRATED BY THE U.S. GOVERNMENT. THIS THEORY SUGGESTS EXPLOSIVES BROUGHT DOWN THE TWIN TOWERS AND WTC7, LEADING TO WARS AND FINANCIAL GAIN.",
     "meta": "DECEMBER 2024 | SIZE: 84 X 122 CM",
     "images": [
-      {
-        "type": "db",
-        "id": "1774376006090-ksvfqlke",
-        "name": "foto26.jpg",
-        "mimeType": "image/png",
-        "width": 1697,
-        "height": 2400,
-        "size": 6100155
-      }
+      "assets/foto26.jpg"
     ]
   },
   {
@@ -328,42 +86,20 @@
     "description": "Earlier this year I developed the new portfolio website for Belgian painter @lagast_peter The goal was to create a platform that could present his work, exhibitions and publications in a clear and structured way, while reflecting the way his paintings are often exhibited in physical spaces.\nExplore the website at lagastpeter.be",
     "meta": "January 2026",
     "images": [
-      {
-        "type": "db",
-        "id": "1774376024382-3rfdm7tf",
-        "name": "foto27.jpg",
-        "mimeType": "image/png",
-        "width": 2400,
-        "height": 1442,
-        "size": 4481932
-      },
-      {
-        "type": "db",
-        "id": "1774376024517-s7qc6lin",
-        "name": "foto28.jpg",
-        "mimeType": "image/png",
-        "width": 2400,
-        "height": 1442,
-        "size": 2079401
-      },
-      {
-        "type": "db",
-        "id": "1774376024677-h4yv52xe",
-        "name": "foto29.jpg",
-        "mimeType": "image/png",
-        "width": 2400,
-        "height": 1442,
-        "size": 2608359
-      },
-      {
-        "type": "db",
-        "id": "1774376024809-d38pc21f",
-        "name": "foto30.jpg",
-        "mimeType": "image/png",
-        "width": 1372,
-        "height": 1952,
-        "size": 3415618
-      }
+      "assets/foto27.jpg",
+      "assets/foto28.jpg",
+      "assets/foto29.jpg",
+      "assets/foto30.jpg"
+    ]
+  },
+  {
+    "title": "Magnetic Drawing",
+    "description": "A MAGNETIC DRAWING BOARD IN WEB FORM. THE MAGNETS FOLLOW YOUR CURSOR, AND YOU CAN SIMPLY ERASE BY SHRINKING THE TAB ON THE RIGHT. \nhttps://aiekodevos.github.io/magnetic-drawing/",
+    "meta": "DATE: JUNE, 2025",
+    "images": [
+      "assets/foto31.jpg",
+      "assets/foto32.jpg",
+      "assets/foto33.jpg"
     ]
   }
 ]

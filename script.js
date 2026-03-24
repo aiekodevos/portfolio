@@ -25,6 +25,10 @@ function sanitizeProjects(input) {
     .filter(Boolean);
 }
 
+function getFallbackProjects() {
+  return sanitizeProjects(window.PROJECTS_DATA || []);
+}
+
 async function loadProjects() {
   try {
     const response = await fetch("./projects.json", { cache: "no-store" });
@@ -33,7 +37,11 @@ async function loadProjects() {
     projects = sanitizeProjects(data);
   } catch (error) {
     console.error(error);
-    projects = [];
+    projects = getFallbackProjects();
+  }
+
+  if (!projects.length) {
+    projects = getFallbackProjects();
   }
 
   if (!projects.length) {
