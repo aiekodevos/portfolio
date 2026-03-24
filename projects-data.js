@@ -27,8 +27,8 @@ window.PROJECTS_DATA = [
     "description": "An experimental design in which window structures from four iconic buildings — Kunsthal Gent, Horta Museum, Villers-la-Ville, and Melopee — come together.",
     "meta": "May 2025 | Size: 64 x 94 cm",
     "images": [
-      "assets/foto10.JPG",
-      "assets/foto11.JPG"
+      "assets/foto10.jpg",
+      "assets/foto11.jpg"
     ]
   },
   {

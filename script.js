@@ -1,4 +1,3 @@
-
 let projects = [];
 let currentProjectIndex = 0;
 let currentImageIndex = 0;
@@ -25,10 +24,6 @@ function sanitizeProjects(input) {
     .filter(Boolean);
 }
 
-function getFallbackProjects() {
-  return sanitizeProjects(window.PROJECTS_DATA || []);
-}
-
 async function loadProjects() {
   try {
     const response = await fetch("./projects.json", { cache: "no-store" });
@@ -36,12 +31,8 @@ async function loadProjects() {
     const data = await response.json();
     projects = sanitizeProjects(data);
   } catch (error) {
-    console.error(error);
-    projects = getFallbackProjects();
-  }
-
-  if (!projects.length) {
-    projects = getFallbackProjects();
+    console.warn("Falling back to embedded project data.", error);
+    projects = sanitizeProjects(window.PROJECTS_DATA || []);
   }
 
   if (!projects.length) {
@@ -60,6 +51,8 @@ function renderProject() {
   if (!projects.length) return;
   const project = projects[currentProjectIndex];
   const imageSrc = project.images[currentImageIndex] || "";
+  const totalImages = project.images.length;
+  const counterText = totalImages > 1 ? `(${currentImageIndex + 1}/${totalImages})` : "";
 
   mainImage.decoding = "async";
   mainImage.loading = "eager";
@@ -73,6 +66,13 @@ function renderProject() {
     row.textContent = lineText;
     projectLines.appendChild(row);
   });
+
+  if (counterText) {
+    const counterRow = document.createElement("div");
+    counterRow.className = "project-line project-line--counter";
+    counterRow.textContent = counterText;
+    projectLines.appendChild(counterRow);
+  }
 }
 
 function nextProject() {
